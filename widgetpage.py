@@ -8,8 +8,7 @@ import print_pdf
 
 
 class Gui:
-    # widget_canvas = None
-    # Declare global variable table1 record
+    
     table1record = []
     table2record = []
 
