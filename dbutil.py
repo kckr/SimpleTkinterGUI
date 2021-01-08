@@ -27,7 +27,6 @@ class DbUtil:
 
     def readdata(self, pin):  # read function by accepting pin
         cursor = self.connect()
-        # pin = 'BF80A0206A01000000'
         # sets record from SQL Query
 
         record = cursor.execute("""SELECT  [ASSEMBLY_ITEM_NO]
@@ -81,7 +80,4 @@ class DbUtil:
         self.conn.close()  # closing the connection
         return record
 
-# mydb = DbUtil('XML', 'COMPONENT_ROW', 'ASSEMBLY_ITEM')
-# myrecord = mydb.readdata("BF80A0206A01000000")
-# print(myrecord)
-#
+
