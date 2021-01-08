@@ -2,10 +2,6 @@ import pyodbc
 
 
 class DbUtil:
-    dbname = None
-    tablename1 = None
-    tablename2 = None  # table names
-    conn = None
 
     def __init__(self, dbname, tablename1, tablename2):  # class constructor
         self.dbname = dbname  #
