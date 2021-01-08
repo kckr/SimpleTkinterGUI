@@ -8,9 +8,6 @@ import print_pdf
 
 
 class Gui:
-    
-    table1record = []
-    table2record = []
 
     def __init__(self, root):  # initialize Gui
         self.root = root
